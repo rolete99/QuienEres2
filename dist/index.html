@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Material Design - Responsive card</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="container">
+    <div class="page-header">
+        <h1>¿Quién eres en cuarentena?<br>
+          <small>Sacaste lo mejor o peor de ti...</small></h1>
+    </div>
+    <div class="row active-with-click">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Red">
+                <h2>
+                    <span>La/el productive</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Entre más, mejor
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://estadepeques.files.wordpress.com/2015/06/multitasking-woman.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Dibuja, limpia, hace tutoriales DIY, transforma su ropa, la coce, la tiñe, la corta... Todas las cosas que nunca hizo o pensó hacer en su vida normal, las hizo todas juntas en cuarentena, quizás, en un mismo día.
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://cdn.pixabay.com/photo/2019/11/14/03/22/drunk-4625236_1280.png">
+                    <img class="fa fa-fw fa-twitter" src="data:image/jpeg;base64,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">
+                    <img class="fa fa-fw fa-linkedin" src="https://images.vexels.com/media/users/3/134643/isolated/preview/f967dff67c513d21ebd6375982054b55-risa-emoji-emoticon-sonrisa-by-vexels.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://i.pinimg.com/originals/ab/0f/39/ab0f39a2306988f6a47afc299f3c318b.png">
+                </div>
+            </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Pink">
+                <h2>
+                    <span>La/el dormilone</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Siempre con tuto, nunca intuto
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://static8.depositphotos.com/1292351/813/v/950/depositphotos_8131059-stock-illustration-cartoon-of-overweight-man-sleeping.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Su cama es su mejor amigue. Las sábanas (que no cambia hace bastante) le tientan, no se levanta ni para reuniones en zoom, y si lo hace, es para echarse en el sillón. 
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://wprock.fr/wp-content/themes/wprock-theme/img/emoji/joypixels/512/1f4a4.png">
+                    <img class="fa fa-fw fa-twitter" src="https://images.emojiterra.com/twitter/512px/1f634.png">
+                    <img class="fa fa-fw fa-linkedin" src="https://images.emojiterra.com/google/android-oreo/512px/1f6cf.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://images.emojiterra.com/twitter/512px/1f62b.png">
+                </div>
+            </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Purple">
+                <h2>
+                    <span>La/el deportista</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Por un verano sin polera
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://image.freepik.com/vector-gratis/culturista-mujer-caricatura-plana_133260-47.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Lo más probable es que nunca había hecho deporte antes, pero qué mejor que aprovechar la cuarentena para salir a... Perdón, quedarse ejercitando con videos de Youtube en casa. Acuérdense ¡TOMEN AGUA!
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://image.flaticon.com/icons/png/512/1094/1094404.png">
+                    <img class="fa fa-fw fa-twitter" src="https://images.emojiterra.com/google/android-10/512px/1f3cb-2640.png">
+                    <img class="fa fa-fw fa-linkedin" src="https://images.emojiterra.com/openmoji/v12.2/512px/1f4aa.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://images.emojiterra.com/twitter/v13.0/512px/1f4fa.png">
+                </div>
+            </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Deep-Purple">
+                <h2>
+                    <span>La/el wene pal carrete</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Por zoom hay pre, fiesta y after
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://st.depositphotos.com/1292351/3979/v/450/depositphotos_39798793-stock-illustration-cartoon-drunk-man-with-champagne.jpg">
+                    </div>
+                    <div class="mc-description">
+                        La/el que no se aguanta el no tomar, pero no le gusta hacerlo sola/o. Su chin chin por camarita y su perreo con Spotify compartido.
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://cdn.pixabay.com/photo/2019/11/14/03/22/drunk-4625236_1280.png">
+                    <img class="fa fa-fw fa-twitter" src="https://images.emojiterra.com/twitter/512px/1f57a.png">
+                    <img class="fa fa-fw fa-linkedin" src="https://i.pinimg.com/originals/17/3d/3f/173d3f50ede0e32bd9e3f111d03f5c2c.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://images.emojiterra.com/twitter/v13.0/512px/1f973.png">
+                </div>
+            </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Indigo">
+                <h2>
+                    <span>La/el estudiose</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Intelectual hasta el fin
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://image.freepik.com/vector-gratis/mujer-estresada-trabajo-mucho-papeleo_101179-87.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Si con las clases presenciales no tenía tiempo, ahora menos. Se compró anteojos con filtro azul porque si le duelen los ojos, ¡No va a alcanzar a repasar! Las redes sociales, su peor enemigue.
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://images.emojiterra.com/google/android-10/512px/1f913.png">
+                    <img class="fa fa-fw fa-twitter" src="https://miro.medium.com/max/1200/1*NsZ89gNnDQJ6Wi7TsE-Bpg.png">
+                    <img class="fa fa-fw fa-linkedin" src="https://images.emojiterra.com/google/android-oreo/512px/1f4d6.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://cdn.pixabay.com/photo/2019/11/14/03/22/arrogant-4625238_960_720.png">
+                </div>
+            </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <article class="material-card Blue">
+                <h2>
+                    <span>La/el buzo</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Comodidad ante todo
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="https://previews.123rf.com/images/djvstock/djvstock1712/djvstock171202899/91396331-hombre-de-dibujos-animados-practicando-yoga-en-un-icono-de-pose-de-loto-sobre-fondo-azul-ilustraci%C3%B3n-de.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Su uniforme, pan de cada día, su buzo. La dignidad y el estilo quedan fuera, la comodidad es lo importante. Lavar una vez a la semana el outfit y volver a ponérselo, que fome andar pensando cómo vestirse bonito. 
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                        Emojis que le representan
+                    </h4>
+                    <img class="fa fa-fw fa-facebook" src="https://onlypult.com/blog_uploads/1546963963-1aa4175959cfa3bcecf285206b97db31.png">
+                    <img class="fa fa-fw fa-twitter" src="https://images.emojiterra.com/twitter/v13.0/512px/1f60c.png">
+                    <img class="fa fa-fw fa-linkedin" src="https://images.emojiterra.com/google/android-pie/512px/1f486-1f3fc-2640.png">
+                    <img class="fa fa-fw fa-google-plus" src="https://images.emojiterra.com/google/android-10/512px/1f61b.png">
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
